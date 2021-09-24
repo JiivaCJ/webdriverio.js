@@ -61,11 +61,15 @@ exports.config = {
         //
         browserName: 'chrome',
         acceptInsecureCerts: true,
-        'goog:chromeOptions': {
+        'google:chromeOptions': {
             prefs: {
                 'profile.managed_default_content_settings.popups' : 1,
                 'profile.managed_default_content_settings.notifications' : 1,
-            }
+            },
+           
+            
+                browserName: 'firefox',
+              
         }
         
         // If outputDir is provided WebdriverIO can capture driver session logs
